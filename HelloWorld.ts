@@ -30,6 +30,10 @@ export class G964 {
         {
             results.push(chunk);
         }
+        else if(results.length == 4)
+        {  
+          results.push('');
+        }
 
         return results;
     }
